@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Manaf Saidi — academic profile, research interests, publications, and academic background in operations, decision analytics, human–AI systems, and engineering.">
+  <meta name="theme-color" content="#19382f">
+  <meta name="description" content="Manaf Saidi — academic profile, research interests, publications, and academic background.">
   <title>Manaf Saidi | Academic Homepage</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
@@ -12,125 +12,198 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
-  <div class="site-layout">
-    <aside class="sidebar">
-      <div class="identity">
-        <a class="identity-name" href="#top" aria-label="Manaf Saidi, homepage">Manaf <strong>Saidi</strong></a>
-        <p class="identity-role">Researcher<br>Operations &amp; decision analytics</p>
-        <p class="location">Toronto, Canada</p>
+
+  <header class="hero" id="top">
+    <div class="hero-overlay"></div>
+    <div class="hero-inner page-width">
+      <div class="profile-block">
+        <div class="profile-avatar" aria-hidden="true">
+          <span>MS</span>
+        </div>
+        <div class="profile-text">
+          <p class="profile-kicker">Academic profile</p>
+          <h1>Manaf Saidi</h1>
+          <p class="profile-tagline">Research in operations, decision analytics, human–AI systems, and resilient supply chains.</p>
+          <p class="profile-meta">Toronto, Canada · Mechanical engineering · Management research · Data analytics</p>
+          <p class="profile-links">
+            <a href="https://github.com/manafsaidi" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <span>/</span>
+            <a href="https://doi.org/10.2139/ssrn.7242983" target="_blank" rel="noopener noreferrer">SSRN preprint</a>
+          </p>
+        </div>
       </div>
-      <nav class="side-nav" aria-label="Site sections">
+
+      <nav class="hero-nav" aria-label="Section navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#education">Education</a>
+        <a href="#education">Background</a>
         <a href="#presentations">Presentations</a>
         <a href="#contact">Contact</a>
       </nav>
-      <div class="sidebar-external">
-        <span class="links-label">Elsewhere</span>
-        <a href="https://github.com/manafsaidi" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-        <a href="https://doi.org/10.2139/ssrn.7242983" target="_blank" rel="noopener noreferrer">SSRN preprint <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main" class="page-width site-main">
+    <section class="section-card" id="about">
+      <div class="section-head">
+        <h2>About Me</h2>
+        <div class="section-rule"></div>
       </div>
-      <p class="sidebar-bottom">Academic website<br>Updated November 2026</p>
-    </aside>
-    <main class="main-content" id="main">
-      <div class="topline" id="top"><span>Academic homepage</span><span>Manaf Saidi</span></div>
+      <div class="section-body">
+        <p>I am interested in how organizations make decisions under uncertainty, especially when disruptions, incomplete information, and complex system interactions make those decisions difficult. My work draws on operations research, simulation, and analytical modeling to study decision support in settings such as supply chains, maritime chokepoints, and human–AI collaboration.</p>
+        <p>My background spans mechanical engineering, management research, and data analytics. I have conducted research in both engineering and management contexts, including microfluidic systems for biomedical applications and digital-twin approaches for disruption management. These experiences motivate my broader interest in decision-making across technical and organizational systems.</p>
+      </div>
+    </section>
 
-      <section class="content-section intro" id="about" aria-labelledby="about-title">
-        <h1 id="about-title">Manaf Saidi</h1>
-        <p class="intro-subtitle">Operations management · Decision analytics · Human–AI systems</p>
-        <p>My research interests lie at the intersection of operations and technology management, analytical decision-making, and complex systems. I am particularly interested in how organizations can make robust decisions under uncertainty, and how simulation and AI-based tools can support those decisions.</p>
-        <p>My background spans mechanical engineering, management research, and data analytics. I have worked on topics ranging from microfluidic systems and biomedical engineering to maritime supply chain resilience and digital twins. These experiences inform my interest in quantitative models and their practical use in organizational decision-making.</p>
-      </section>
-
-      <section class="content-section" id="research" aria-labelledby="research-title">
-        <h2 id="research-title">Research interests</h2>
-        <div class="research-entry">
+    <section class="section-card" id="research">
+      <div class="section-head">
+        <h2>Research Interests</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="section-body">
+        <div class="item-block">
           <h3>Decision-making under disruption</h3>
-          <p>Operational decisions in environments exposed to geopolitical risk, disruptions, and uncertain information, with particular interest in supply chain resilience and maritime logistics.</p>
+          <p>How organizations can respond to geopolitical disruptions, logistical shocks, and uncertain operating environments, with a particular focus on supply chain resilience and maritime systems.</p>
         </div>
-        <div class="research-entry">
+        <div class="item-block">
           <h3>Digital twins and decision support</h3>
-          <p>Simulation-based decision support, surrogate modeling, and the use of real-time information to assess alternative operational responses.</p>
+          <p>How simulation, surrogate models, and real-time information can improve operational decision support and help evaluate alternative responses.</p>
         </div>
-        <div class="research-entry">
+        <div class="item-block">
           <h3>Human–AI collaboration</h3>
-          <p>How people interact with AI systems in decision processes, including oversight, reliability, accountability, and the allocation of decision authority.</p>
+          <p>How decision authority, oversight, and accountability should be structured when humans increasingly rely on AI tools in complex decision processes.</p>
         </div>
-        <p class="research-aside"><strong>Additional research experience:</strong> microfluidic engineering, particularly continuous-flow size-based fractionation of tumor spheroids and organoid-scale samples.</p>
-      </section>
+        <div class="item-block">
+          <h3>Additional engineering research experience</h3>
+          <p>Microfluidic engineering, including continuous-flow, size-based fractionation of tumor spheroids and organoid-scale samples.</p>
+        </div>
+      </div>
+    </section>
 
-      <section class="content-section" id="publications" aria-labelledby="publications-title">
-        <h2 id="publications-title">Selected publications and manuscripts</h2>
-        <p class="section-note">Selected peer-reviewed work, preprints, and research in progress.</p>
+    <section class="section-card" id="publications">
+      <div class="section-head">
+        <h2>Selected Publications and Manuscripts</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="section-body">
+        <div class="pub-group">
+          <h3>Journal article</h3>
+          <ol>
+            <li>
+              <strong>Logistical Agility at the Strait of Hormuz: A Framework for Managing Sustained Geopolitical Risk in Global Supply Chains.</strong><br>
+              <em>Transport Policy</em>, accepted for publication, 2026.
+            </li>
+          </ol>
+        </div>
 
-        <h3 class="subsection-heading">Journal article</h3>
-        <ol class="publication-list">
-          <li>
-            <p class="publication-title">Logistical Agility at the Strait of Hormuz: A Framework for Managing Sustained Geopolitical Risk in Global Supply Chains</p>
-            <p class="publication-detail"><em>Transport Policy</em> · Accepted for publication, 2026.</p>
-          </li>
-        </ol>
+        <div class="pub-group">
+          <h3>Conference paper and preprint</h3>
+          <ol>
+            <li>
+              <strong>A Digital Twin with AI-based Surrogate Decision Support for Near Real-Time Maritime Chokepoint Disruption Management.</strong><br>
+              I3M 2026. Extended preprint available on <a href="https://doi.org/10.2139/ssrn.7242983" target="_blank" rel="noopener noreferrer">SSRN</a>.
+            </li>
+          </ol>
+        </div>
 
-        <h3 class="subsection-heading">Conference paper and preprint</h3>
-        <ol class="publication-list">
-          <li>
-            <p class="publication-title">A Digital Twin with AI-based Surrogate Decision Support for Near Real-Time Maritime Chokepoint Disruption Management</p>
-            <p class="publication-detail">I3M 2026 · Extended preprint available on SSRN. <a href="https://doi.org/10.2139/ssrn.7242983" target="_blank" rel="noopener noreferrer">DOI: 10.2139/ssrn.7242983</a></p>
-          </li>
-        </ol>
+        <div class="pub-group">
+          <h3>Research in progress</h3>
+          <ul>
+            <li><strong>A Maxwell-Type Delay–Relaxation Model for Oscillatory Instability in Supply Chain Networks.</strong> Dynamic modeling of instability in supply chain systems.</li>
+            <li><strong>Microfluidic Size Fractionation of MSTO Spheroids Using Multilayer Tangential Filtration.</strong> Passive microfluidic separation of tumor spheroids.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-        <h3 class="subsection-heading">Research in progress</h3>
-        <ul class="working-list">
-          <li><strong>A Maxwell-Type Delay–Relaxation Model for Oscillatory Instability in Supply Chain Networks.</strong> Dynamic behavior in supply networks.</li>
-          <li><strong>Microfluidic Size Fractionation of MSTO Spheroids Using Multilayer Tangential Filtration.</strong> Passive, continuous-flow microfluidic separation.</li>
+    <section class="section-card" id="education">
+      <div class="section-head">
+        <h2>Education and Research Background</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="section-body">
+        <div class="timeline-entry">
+          <span class="timeline-date">2025–2026</span>
+          <div>
+            <h3>Graduate study, Management Practice</h3>
+            <p>Schulich School of Business, York University</p>
+            <p class="muted">Supply chains, analytics, and operational decision-making.</p>
+          </div>
+        </div>
+        <div class="timeline-entry">
+          <span class="timeline-date">2023–2026</span>
+          <div>
+            <h3>Graduate research, Mechanical Engineering</h3>
+            <p>Lassonde School of Engineering, York University</p>
+            <p class="muted">Microfluidic devices and tumor spheroid fractionation.</p>
+          </div>
+        </div>
+        <div class="timeline-entry">
+          <span class="timeline-date">2025</span>
+          <div>
+            <h3>Visiting Research Scholar</h3>
+            <p>University of Technology Sydney, Australia</p>
+            <p class="muted">Biomedical engineering and microfluidics research.</p>
+          </div>
+        </div>
+        <div class="timeline-entry">
+          <span class="timeline-date">2019–2023</span>
+          <div>
+            <h3>B.Eng., Mechanical Engineering · B.A., International Development Studies</h3>
+            <p>York University, Canada</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-card" id="presentations">
+      <div class="section-head">
+        <h2>Selected Presentations</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="section-body">
+        <div class="timeline-entry">
+          <span class="timeline-date">2026</span>
+          <div>
+            <h3>MicroTAS, Granada, Spain</h3>
+            <p>Poster presentation on microfluidic spheroid fractionation.</p>
+          </div>
+        </div>
+        <div class="timeline-entry">
+          <span class="timeline-date">2026</span>
+          <div>
+            <h3>I3M, Genoa, Italy</h3>
+            <p>Virtual presentation on digital twins and maritime disruption management.</p>
+          </div>
+        </div>
+        <div class="timeline-entry">
+          <span class="timeline-date">2026</span>
+          <div>
+            <h3>CSME–CFDSC–CSR Congress, Vancouver, Canada</h3>
+            <p>Presentation on networked flow dynamics.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-card" id="contact">
+      <div class="section-head">
+        <h2>Contact and Links</h2>
+        <div class="section-rule"></div>
+      </div>
+      <div class="section-body">
+        <p>I am happy to connect regarding research in operations, analytics, human–AI systems, and related areas.</p>
+        <ul class="link-list">
+          <li><a href="https://github.com/manafsaidi" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+          <li><a href="https://doi.org/10.2139/ssrn.7242983" target="_blank" rel="noopener noreferrer">Digital-twin preprint on SSRN</a></li>
         </ul>
-      </section>
+      </div>
+    </section>
+  </main>
 
-      <section class="content-section" id="education" aria-labelledby="education-title">
-        <h2 id="education-title">Education and research experience</h2>
-        <div class="cv-entry">
-          <span class="cv-date">2025–2026</span>
-          <div><h3>Graduate study, Management Practice</h3><p>Schulich School of Business, York University</p><p class="cv-detail">Supply chain management and operational decision-making</p></div>
-        </div>
-        <div class="cv-entry">
-          <span class="cv-date">2023–2026</span>
-          <div><h3>Graduate research, Mechanical Engineering</h3><p>Lassonde School of Engineering, York University</p><p class="cv-detail">Microfluidic devices and tumor spheroid fractionation</p></div>
-        </div>
-        <div class="cv-entry">
-          <span class="cv-date">2025</span>
-          <div><h3>Visiting Research Scholar</h3><p>University of Technology Sydney, Australia</p><p class="cv-detail">Biomedical engineering and microfluidics research</p></div>
-        </div>
-        <div class="cv-entry">
-          <span class="cv-date">2019–2023</span>
-          <div><h3>B.Eng., Mechanical Engineering · B.A., International Development Studies</h3><p>York University, Canada</p></div>
-        </div>
-      </section>
-
-      <section class="content-section" id="presentations" aria-labelledby="presentations-title">
-        <h2 id="presentations-title">Selected presentations</h2>
-        <div class="cv-entry">
-          <span class="cv-date">2026</span>
-          <div><h3>MicroTAS, Granada, Spain</h3><p>Poster presentation on microfluidic spheroid fractionation.</p></div>
-        </div>
-        <div class="cv-entry">
-          <span class="cv-date">2026</span>
-          <div><h3>I3M, Genoa, Italy</h3><p>Virtual presentation on digital twins and maritime disruption management.</p></div>
-        </div>
-        <div class="cv-entry">
-          <span class="cv-date">2026</span>
-          <div><h3>CSME–CFDSC–CSR Congress, Vancouver, Canada</h3><p>Research presentation on networked flow dynamics.</p></div>
-        </div>
-      </section>
-
-      <section class="content-section contact-section" id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">Contact and links</h2>
-        <p>Research projects and public code can be found on my <a href="https://github.com/manafsaidi" target="_blank" rel="noopener noreferrer">GitHub profile</a>. My digital-twin preprint is available through <a href="https://doi.org/10.2139/ssrn.7242983" target="_blank" rel="noopener noreferrer">SSRN</a>.</p>
-      </section>
-
-      <footer class="site-footer">© <span id="current-year">2026</span> Manaf Saidi. Academic homepage.</footer>
-    </main>
-  </div>
+  <footer class="site-footer page-width">
+    <p>© <span id="current-year">2026</span> Manaf Saidi. Academic homepage.</p>
+  </footer>
 </body>
 </html>
